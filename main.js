@@ -29,7 +29,7 @@ function process(formData){
     document.getElementById("word-count").innerHTML = result.length + " words created.";
 
     console.log("Done")
-    document.getElementById("log").innerHTML +=  log +"Done."
+    document.getElementById("log").innerHTML +=  log +"Done. Copy the wordlist to a txt file."
 
 
     return result;
