@@ -1,7 +1,7 @@
 PbPGen (Profile based Password Generator)
 
 The purpose of this software is to test password strenght and network security. Entering on a system without permission is a crime.
-I do not accept any responsabilities for the wrong usage of this software.
+I do not advise criminal actions or accept any responsabilities for the wrong usage of this software.
 
 This software generates password wordlist based upon data collected from target and some common password patterns.
 It then mixes the data entered to create the wordlist.
