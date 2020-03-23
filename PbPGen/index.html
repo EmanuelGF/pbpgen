@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/javascript"  href="index.css">
+    
+
+<title>⌨PbPGen⌨</title>
+</head>
+<body>
+
+<h1>Welcome to PbPGen</h1>
+<p>Generate a wordlist based on info gathered from a specific target.</p>
+<p>Copy the results into a txt file.</p>
+
+<form id="form">
+
+    <p>Please insert words separated by comma. <br /> <b>ATENTION!</b>
+        <small style="color:crimson">(It migth take a few seconds to create the wordlist. Be patient.<br />
+            You can also try creating small lists at a time ex. 3 keywords and then combining the results.)<br />
+            Composit words are also a good idea.</small> </p>
+    <textarea rows="5" cols="50" maxlength="1000" required="true"
+     name="target-info" id="target-info" placeholder="ex: JoHn36,Tr3nt0n,84"></textarea>
+
+    <br />
+</form>
+    <button onclick="run()">Generate</button>
+
+<div id="log"></div>
+<br />
+<p id="word-count"></p>
+<br />
+<div id="result"></div>
+
+<script src="main.js"></script>
+</body>
+</html>
